@@ -4,7 +4,7 @@ Interested? check the Instakilo features below! :D
 
 ## Descriptions
 This is an iOS app that using SwiftUI as its framework and MVVM architecture as its front end.
-The backend? In this project, I am using Cloud Firestore that storing all the users data, start from image, like, comment, following, followers, and much more just like Instagram app!
+<br>The backend? In this project, I am using Cloud Firestore that storing all the users data, start from image, like, comment, following, followers, and much more just like real Instagram app!
 
 <br>In this app, you can find interesting features such as:
 - Image uploading / storing in cloud backend
@@ -14,7 +14,7 @@ The backend? In this project, I am using Cloud Firestore that storing all the us
 - Insta feeds, explore other account images within the app
 - Login / Signup just like pro app!
 
-<br>No pict, hoax! Please be my guest to the app preview below :D
+<br>No pict, hoax! Please be my guest to the app preview below
 
 ## Developer Guide
 This app using Xcode 12.5.1, iOS 14 Target Deployment, SwiftUI 2.0, and Swift 5 Versions.
@@ -26,8 +26,8 @@ This app using Xcode 12.5.1, iOS 14 Target Deployment, SwiftUI 2.0, and Swift 5 
 <p align="center"><img src="MovieGenre.png"></p><br>
 
 ## Technologies
-▸ Swift<br>
-▸ SwiftUI<br>
+▸ Swift Programming Language<br>
+▸ SwiftUI Framework<br>
 ▸ MVVM architecture<br>
 ▸ Cloud Firestore<br>
 ▸ Xcode<br>
