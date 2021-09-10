@@ -17,7 +17,7 @@ The backend? In this project, I am using Cloud Firestore that storing all the us
 <br>No pict, hoax! Please be my guest to the app preview below :D
 
 ## Developer Guide
-This is an app that using Xcode 12.5.1 and SwiftUI 2.0
+This app using Xcode 12.5.1, iOS 14 Target Deployment, SwiftUI 2.0, and Swift 5 Versions.
 
 ## Project's Preview <Coming Soon!>
 <p align="center"><img src="Home1 (Night Mode).png"></p><br>
