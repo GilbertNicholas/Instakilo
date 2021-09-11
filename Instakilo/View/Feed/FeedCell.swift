@@ -74,7 +74,7 @@ struct FeedCell: View {
                 Text("gilbert1")
                     .font(.system(size: 14, weight: .semibold)) + Text(" All men have limits. They learn what they are and learn not to exceed them. I ignored mine.")
                     .font(.system(size: 15))
-            }
+            } //: HSTACK
             .padding(.horizontal, 8)
             
             Text("2d")
