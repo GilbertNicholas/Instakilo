@@ -27,6 +27,7 @@
 		020D077626ED1CED005D8677 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D077526ED1CED005D8677 /* ProfileHeaderView.swift */; };
 		020D077826ED295E005D8677 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D077726ED295E005D8677 /* UserStatView.swift */; };
 		020D077A26ED2B02005D8677 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D077926ED2B02005D8677 /* ProfileActionButtonView.swift */; };
+		020D077C26EE79EF005D8677 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D077B26EE79EF005D8677 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		020D077526ED1CED005D8677 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		020D077726ED295E005D8677 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		020D077926ED2B02005D8677 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		020D077B26EE79EF005D8677 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				020D077126ED0897005D8677 /* Extensions.swift */,
+				020D077B26EE79EF005D8677 /* ImagePicker.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				020D073726EB958C005D8677 /* InstakiloApp.swift in Sources */,
 				020D075B26EBA504005D8677 /* MainTabView.swift in Sources */,
 				020D076526EBA58C005D8677 /* UploadPostView.swift in Sources */,
+				020D077C26EE79EF005D8677 /* ImagePicker.swift in Sources */,
 				020D077626ED1CED005D8677 /* ProfileHeaderView.swift in Sources */,
 				020D076326EBA576005D8677 /* ProfileView.swift in Sources */,
 				020D077826ED295E005D8677 /* UserStatView.swift in Sources */,
