@@ -41,6 +41,7 @@
 		02709A0E26F12111005DC352 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 02709A0D26F12111005DC352 /* Kingfisher */; };
 		02709A1026F121CE005DC352 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02709A0F26F121CE005DC352 /* GoogleService-Info.plist */; };
 		02709A1226F125BB005DC352 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02709A1126F125BB005DC352 /* AuthViewModel.swift */; };
+		02709A1426F23844005DC352 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02709A1326F23844005DC352 /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		020D078526EF55B6005D8677 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		02709A0F26F121CE005DC352 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02709A1126F125BB005DC352 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		02709A1326F23844005DC352 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		020D074526EBA31D005D8677 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				02709A1326F23844005DC352 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				020D076C26ECE7B8005D8677 /* PostGridView.swift in Sources */,
 				020D078026EF4EAC005D8677 /* RegistrationView.swift in Sources */,
 				020D078426EF55AE005D8677 /* CustomTextField.swift in Sources */,
+				02709A1426F23844005DC352 /* ImageUploader.swift in Sources */,
 				020D073926EB958C005D8677 /* ContentView.swift in Sources */,
 				020D073726EB958C005D8677 /* InstakiloApp.swift in Sources */,
 				020D075B26EBA504005D8677 /* MainTabView.swift in Sources */,
