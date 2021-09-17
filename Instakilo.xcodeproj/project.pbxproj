@@ -42,6 +42,7 @@
 		02709A1026F121CE005DC352 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02709A0F26F121CE005DC352 /* GoogleService-Info.plist */; };
 		02709A1226F125BB005DC352 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02709A1126F125BB005DC352 /* AuthViewModel.swift */; };
 		02709A1426F23844005DC352 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02709A1326F23844005DC352 /* ImageUploader.swift */; };
+		0275D73726F513AD004E4BC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D73626F513AD004E4BC4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		02709A0F26F121CE005DC352 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02709A1126F125BB005DC352 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		02709A1326F23844005DC352 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		0275D73626F513AD004E4BC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				020D077B26EE79EF005D8677 /* ImagePicker.swift */,
 				020D078326EF55AE005D8677 /* CustomTextField.swift */,
 				020D078526EF55B6005D8677 /* CustomSecureField.swift */,
+				0275D73626F513AD004E4BC4 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				020D077426ED1490005D8677 /* NotificationCell.swift in Sources */,
 				020D077E26EF4E0C005D8677 /* LoginView.swift in Sources */,
 				020D077226ED0897005D8677 /* Extensions.swift in Sources */,
+				0275D73726F513AD004E4BC4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
