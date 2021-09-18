@@ -31,10 +31,10 @@ struct MainTabView: View {
                         Image(systemName: "heart")
                     }
                 
-                ProfileView()
-                    .tabItem {
-                        Image(systemName: "person")
-                    }
+//                ProfileView()
+//                    .tabItem {
+//                        Image(systemName: "person")
+//                    }
             } //: TAB VIEW
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
