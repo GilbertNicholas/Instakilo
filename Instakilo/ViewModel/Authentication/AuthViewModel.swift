@@ -73,7 +73,9 @@ class AuthViewModel: ObservableObject {
         guard let uidLoginUser = userSession?.uid else { return }
         
         COLLECTION_USERS.document(uidLoginUser).getDocument { snapshot, _ in
-            print(snapshot?.data())
+            guard let userData = try? snapshot?.data(as: User.self) else { return }
+            
+            
         }
     }
 }
