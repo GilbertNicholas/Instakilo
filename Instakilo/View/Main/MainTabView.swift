@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainTabView: View {
+    
+    let user: User
+    
     var body: some View {
         NavigationView {
             TabView {
@@ -31,10 +34,10 @@ struct MainTabView: View {
                         Image(systemName: "heart")
                     }
                 
-//                ProfileView()
-//                    .tabItem {
-//                        Image(systemName: "person")
-//                    }
+                ProfileView(user: user)
+                    .tabItem {
+                        Image(systemName: "person")
+                    }
             } //: TAB VIEW
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
@@ -52,8 +55,8 @@ struct MainTabView: View {
     }
 }
 
-struct MainTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTabView()
-    }
-}
+//struct MainTabView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MainTabView()
+//    }
+//}
