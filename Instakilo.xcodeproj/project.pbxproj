@@ -46,6 +46,7 @@
 		0275D74426F5FA42004E4BC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0275D74326F5FA42004E4BC4 /* FirebaseFirestore */; };
 		0275D74626F5FA42004E4BC4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0275D74526F5FA42004E4BC4 /* FirebaseStorage */; };
 		0275D74826F5FFED004E4BC4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */; };
+		0275D74A26F7A2E5004E4BC4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		0275D73626F513AD004E4BC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0275D73826F5F805004E4BC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +309,7 @@
 		020D075826EBA477005D8677 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				0275D73926F5F805004E4BC4 /* User.swift in Sources */,
 				020D077A26ED2B02005D8677 /* ProfileActionButtonView.swift in Sources */,
 				02709A1226F125BB005DC352 /* AuthViewModel.swift in Sources */,
+				0275D74A26F7A2E5004E4BC4 /* ProfileViewModel.swift in Sources */,
 				020D077026ECED61005D8677 /* UserListView.swift in Sources */,
 				020D077426ED1490005D8677 /* NotificationCell.swift in Sources */,
 				020D077E26EF4E0C005D8677 /* LoginView.swift in Sources */,
