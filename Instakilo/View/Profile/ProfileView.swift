@@ -20,7 +20,7 @@ struct ProfileView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 32) {
-                ProfileHeaderView(user: user)
+                ProfileHeaderView(viewModel: viewModel)
                 
                 PostGridView()
             } //: VSTACK
