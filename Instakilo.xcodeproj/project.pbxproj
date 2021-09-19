@@ -47,6 +47,7 @@
 		0275D74626F5FA42004E4BC4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0275D74526F5FA42004E4BC4 /* FirebaseStorage */; };
 		0275D74826F5FFED004E4BC4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */; };
 		0275D74A26F7A2E5004E4BC4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */; };
+		0275D74C26F7A699004E4BC4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74B26F7A699004E4BC4 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		0275D73826F5F805004E4BC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		0275D74B26F7A699004E4BC4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				02709A1326F23844005DC352 /* ImageUploader.swift */,
+				0275D74B26F7A699004E4BC4 /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				020D076526EBA58C005D8677 /* UploadPostView.swift in Sources */,
 				020D077C26EE79EF005D8677 /* ImagePicker.swift in Sources */,
 				020D077626ED1CED005D8677 /* ProfileHeaderView.swift in Sources */,
+				0275D74C26F7A699004E4BC4 /* UserService.swift in Sources */,
 				020D076326EBA576005D8677 /* ProfileView.swift in Sources */,
 				020D077826ED295E005D8677 /* UserStatView.swift in Sources */,
 				020D076E26ECED51005D8677 /* UserCell.swift in Sources */,
