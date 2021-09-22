@@ -37,7 +37,7 @@ class AuthViewModel: ObservableObject {
         
         guard let image = image else { return }
         
-        ImageUploader.uploadImage(image: image) { imageUrl in
+        ImageUploader.uploadImage(image: image, type: .profile) { imageUrl in
             Auth.auth().createUser(withEmail: email, password: password) { result, error in
                 print("Successfully Regist User Auth")
                 
