@@ -6,28 +6,32 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct FeedCell: View {
+    
+    let post: Post
+    
     var body: some View {
         VStack(alignment: .leading) {
             // USER INFO
             HStack {
-                Image("gilbert1")
+                KFImage(URL(string: post.ownerImageUrl))
                     .resizable()
                     .scaledToFill()
                     .frame(width: 36, height: 36)
                     .clipped()
                     .cornerRadius(18)
                 
-                Text("Joker")
+                Text(post.ownerUsername)
                     .font(.system(size: 14, weight: .semibold))
             } //: HSTACK
             .padding([.leading, .bottom], 8)
             
             // POST IMAGE
-            Image("stock1")
+            KFImage(URL(string: post.imageUrl))
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
                 .frame(maxHeight: 440)
                 .clipped()
             
@@ -65,14 +69,14 @@ struct FeedCell: View {
             .padding(.leading, 6)
             
             // CAPTION
-            Text("3 likes")
+            Text("\(post.likes) likes")
                 .font(.system(size: 14, weight: .semibold))
                 .padding(.leading, 8)
                 .padding(.bottom, 2)
             
             HStack {
-                Text("gilbert1")
-                    .font(.system(size: 14, weight: .semibold)) + Text(" All men have limits. They learn what they are and learn not to exceed them. I ignored mine.")
+                Text(post.ownerUsername)
+                    .font(.system(size: 14, weight: .semibold)) + Text(" \(post.caption)")
                     .font(.system(size: 15))
             } //: HSTACK
             .padding(.horizontal, 8)
@@ -87,8 +91,8 @@ struct FeedCell: View {
     }
 }
 
-struct FeedCell_Previews: PreviewProvider {
-    static var previews: some View {
-        FeedCell()
-    }
-}
+//struct FeedCell_Previews: PreviewProvider {
+//    static var previews: some View {
+//        FeedCell()
+//    }
+//}

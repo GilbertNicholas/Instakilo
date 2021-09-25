@@ -35,6 +35,9 @@
 		020D078626EF55B6005D8677 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D078526EF55B6005D8677 /* CustomSecureField.swift */; };
 		02685EC326FB696B00A1AEAA /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */; };
 		02685EC726FB948100A1AEAA /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC626FB948100A1AEAA /* TextArea.swift */; };
+		02685EC926FE483200A1AEAA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC826FE483200A1AEAA /* Post.swift */; };
+		02685ECB26FE49AA00A1AEAA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685ECA26FE49AA00A1AEAA /* FeedViewModel.swift */; };
+		02685ECD26FF03E600A1AEAA /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685ECC26FF03E600A1AEAA /* PostGridViewModel.swift */; };
 		02709A0E26F12111005DC352 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 02709A0D26F12111005DC352 /* Kingfisher */; };
 		02709A1026F121CE005DC352 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02709A0F26F121CE005DC352 /* GoogleService-Info.plist */; };
 		02709A1226F125BB005DC352 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02709A1126F125BB005DC352 /* AuthViewModel.swift */; };
@@ -83,6 +86,9 @@
 		020D078526EF55B6005D8677 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		02685EC626FB948100A1AEAA /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		02685EC826FE483200A1AEAA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		02685ECA26FE49AA00A1AEAA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		02685ECC26FF03E600A1AEAA /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 		02709A0F26F121CE005DC352 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02709A1126F125BB005DC352 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		02709A1326F23844005DC352 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
@@ -183,6 +189,7 @@
 				020D075526EBA467005D8677 /* Feed */,
 				0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */,
 				02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */,
+				02685ECC26FF03E600A1AEAA /* PostGridViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				0275D73826F5F805004E4BC4 /* User.swift */,
+				02685EC826FE483200A1AEAA /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +304,7 @@
 		020D075526EBA467005D8677 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				02685ECA26FE49AA00A1AEAA /* FeedViewModel.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -406,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02685ECB26FE49AA00A1AEAA /* FeedViewModel.swift in Sources */,
 				020D075F26EBA55E005D8677 /* SearchView.swift in Sources */,
 				020D075D26EBA537005D8677 /* FeedView.swift in Sources */,
 				020D076C26ECE7B8005D8677 /* PostGridView.swift in Sources */,
@@ -415,6 +425,7 @@
 				020D073926EB958C005D8677 /* ContentView.swift in Sources */,
 				020D073726EB958C005D8677 /* InstakiloApp.swift in Sources */,
 				020D075B26EBA504005D8677 /* MainTabView.swift in Sources */,
+				02685ECD26FF03E600A1AEAA /* PostGridViewModel.swift in Sources */,
 				020D078226EF4EB5005D8677 /* ResetPasswordView.swift in Sources */,
 				020D076526EBA58C005D8677 /* UploadPostView.swift in Sources */,
 				02685EC326FB696B00A1AEAA /* UploadPostViewModel.swift in Sources */,
@@ -427,6 +438,7 @@
 				020D076E26ECED51005D8677 /* UserCell.swift in Sources */,
 				020D076A26EC7B38005D8677 /* SearchBar.swift in Sources */,
 				020D078626EF55B6005D8677 /* CustomSecureField.swift in Sources */,
+				02685EC926FE483200A1AEAA /* Post.swift in Sources */,
 				0275D74826F5FFED004E4BC4 /* SearchViewModel.swift in Sources */,
 				020D076126EBA567005D8677 /* NotificationsView.swift in Sources */,
 				020D076826EBD674005D8677 /* FeedCell.swift in Sources */,
