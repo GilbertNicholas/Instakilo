@@ -54,6 +54,10 @@
 		0275D74A26F7A2E5004E4BC4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */; };
 		0275D74C26F7A699004E4BC4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0275D74B26F7A699004E4BC4 /* UserService.swift */; };
 		0278B7D72700CEB5009EDAE1 /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278B7D62700CEB5009EDAE1 /* FeedCellViewModel.swift */; };
+		0278B7D92700F3FE009EDAE1 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278B7D82700F3FE009EDAE1 /* Comment.swift */; };
+		0278B7DB2700F427009EDAE1 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278B7DA2700F427009EDAE1 /* CommentView.swift */; };
+		0278B7DD2700F435009EDAE1 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278B7DC2700F435009EDAE1 /* CommentCell.swift */; };
+		0278B7DF2700F44E009EDAE1 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278B7DE2700F44E009EDAE1 /* CommentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +103,10 @@
 		0275D74926F7A2E5004E4BC4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		0275D74B26F7A699004E4BC4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		0278B7D62700CEB5009EDAE1 /* FeedCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellViewModel.swift; sourceTree = "<group>"; };
+		0278B7D82700F3FE009EDAE1 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		0278B7DA2700F427009EDAE1 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		0278B7DC2700F435009EDAE1 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		0278B7DE2700F44E009EDAE1 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +200,7 @@
 				0275D74726F5FFED004E4BC4 /* SearchViewModel.swift */,
 				02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */,
 				02685ECC26FF03E600A1AEAA /* PostGridViewModel.swift */,
+				0278B7DE2700F44E009EDAE1 /* CommentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -217,6 +226,7 @@
 			children = (
 				0275D73826F5F805004E4BC4 /* User.swift */,
 				02685EC826FE483200A1AEAA /* Post.swift */,
+				0278B7D82700F3FE009EDAE1 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +334,8 @@
 		0278B7D42700CE76009EDAE1 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
+				0278B7DA2700F427009EDAE1 /* CommentView.swift */,
+				0278B7DC2700F435009EDAE1 /* CommentCell.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -433,6 +445,8 @@
 				020D076526EBA58C005D8677 /* UploadPostView.swift in Sources */,
 				02685EC326FB696B00A1AEAA /* UploadPostViewModel.swift in Sources */,
 				020D077C26EE79EF005D8677 /* ImagePicker.swift in Sources */,
+				0278B7DF2700F44E009EDAE1 /* CommentViewModel.swift in Sources */,
+				0278B7DD2700F435009EDAE1 /* CommentCell.swift in Sources */,
 				02685EC726FB948100A1AEAA /* TextArea.swift in Sources */,
 				020D077626ED1CED005D8677 /* ProfileHeaderView.swift in Sources */,
 				0275D74C26F7A699004E4BC4 /* UserService.swift in Sources */,
@@ -445,6 +459,7 @@
 				02685EC926FE483200A1AEAA /* Post.swift in Sources */,
 				0275D74826F5FFED004E4BC4 /* SearchViewModel.swift in Sources */,
 				020D076126EBA567005D8677 /* NotificationsView.swift in Sources */,
+				0278B7DB2700F427009EDAE1 /* CommentView.swift in Sources */,
 				020D076826EBD674005D8677 /* FeedCell.swift in Sources */,
 				0275D73926F5F805004E4BC4 /* User.swift in Sources */,
 				020D077A26ED2B02005D8677 /* ProfileActionButtonView.swift in Sources */,
@@ -453,6 +468,7 @@
 				020D077026ECED61005D8677 /* UserListView.swift in Sources */,
 				020D077426ED1490005D8677 /* NotificationCell.swift in Sources */,
 				020D077E26EF4E0C005D8677 /* LoginView.swift in Sources */,
+				0278B7D92700F3FE009EDAE1 /* Comment.swift in Sources */,
 				020D077226ED0897005D8677 /* Extensions.swift in Sources */,
 				0275D73726F513AD004E4BC4 /* Constants.swift in Sources */,
 			);
