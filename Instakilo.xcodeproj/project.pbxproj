@@ -33,6 +33,7 @@
 		020D078226EF4EB5005D8677 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D078126EF4EB5005D8677 /* ResetPasswordView.swift */; };
 		020D078426EF55AE005D8677 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D078326EF55AE005D8677 /* CustomTextField.swift */; };
 		020D078626EF55B6005D8677 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D078526EF55B6005D8677 /* CustomSecureField.swift */; };
+		024F392A2701C90F004E6E9D /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F39292701C90F004E6E9D /* CustomInputView.swift */; };
 		02685EC326FB696B00A1AEAA /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */; };
 		02685EC726FB948100A1AEAA /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC626FB948100A1AEAA /* TextArea.swift */; };
 		02685EC926FE483200A1AEAA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC826FE483200A1AEAA /* Post.swift */; };
@@ -89,6 +90,7 @@
 		020D078126EF4EB5005D8677 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		020D078326EF55AE005D8677 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		020D078526EF55B6005D8677 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		024F39292701C90F004E6E9D /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		02685EC626FB948100A1AEAA /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		02685EC826FE483200A1AEAA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				020D076B26ECE7B8005D8677 /* PostGridView.swift */,
 				020D076D26ECED51005D8677 /* UserCell.swift */,
 				020D076F26ECED61005D8677 /* UserListView.swift */,
+				024F39292701C90F004E6E9D /* CustomInputView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				02685EC726FB948100A1AEAA /* TextArea.swift in Sources */,
 				020D077626ED1CED005D8677 /* ProfileHeaderView.swift in Sources */,
 				0275D74C26F7A699004E4BC4 /* UserService.swift in Sources */,
+				024F392A2701C90F004E6E9D /* CustomInputView.swift in Sources */,
 				020D076326EBA576005D8677 /* ProfileView.swift in Sources */,
 				020D077826ED295E005D8677 /* UserStatView.swift in Sources */,
 				020D076E26ECED51005D8677 /* UserCell.swift in Sources */,

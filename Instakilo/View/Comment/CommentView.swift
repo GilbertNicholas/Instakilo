@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct CommentView: View {
+    
+    @State var commentText = ""
+    @ObservedObject var viewModel: CommentViewModel
+    
+    init(post: Post) {
+        self.viewModel = CommentViewModel(post: post)
+    }
+    
     var body: some View {
         VStack {
             // COMMENT CELLS
@@ -21,12 +29,18 @@ struct CommentView: View {
             }
             
             // INPUT VIEW
+            CustomInputView(inputText: $commentText, action: uploadComment)
         } //: VSTACK
+    }
+    
+    func uploadComment() {
+        viewModel.uploadComment(commentText: commentText)
+        commentText = ""
     }
 }
 
-struct CommentView_Previews: PreviewProvider {
-    static var previews: some View {
-        CommentView()
-    }
-}
+//struct CommentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CommentView()
+//    }
+//}
