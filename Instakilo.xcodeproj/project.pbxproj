@@ -35,6 +35,7 @@
 		020D078626EF55B6005D8677 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D078526EF55B6005D8677 /* CustomSecureField.swift */; };
 		024F392A2701C90F004E6E9D /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F39292701C90F004E6E9D /* CustomInputView.swift */; };
 		024F392C27038581004E6E9D /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F392B27038581004E6E9D /* Notification.swift */; };
+		024F392E2703894F004E6E9D /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F392D2703894F004E6E9D /* NotificationViewModel.swift */; };
 		02685EC326FB696B00A1AEAA /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */; };
 		02685EC726FB948100A1AEAA /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC626FB948100A1AEAA /* TextArea.swift */; };
 		02685EC926FE483200A1AEAA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02685EC826FE483200A1AEAA /* Post.swift */; };
@@ -93,6 +94,7 @@
 		020D078526EF55B6005D8677 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		024F39292701C90F004E6E9D /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		024F392B27038581004E6E9D /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		024F392D2703894F004E6E9D /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		02685EC226FB696B00A1AEAA /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		02685EC626FB948100A1AEAA /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		02685EC826FE483200A1AEAA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 		0278B7D52700CE85009EDAE1 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				024F392D2703894F004E6E9D /* NotificationViewModel.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02685ECB26FE49AA00A1AEAA /* FeedViewModel.swift in Sources */,
+				024F392E2703894F004E6E9D /* NotificationViewModel.swift in Sources */,
 				020D075F26EBA55E005D8677 /* SearchView.swift in Sources */,
 				020D075D26EBA537005D8677 /* FeedView.swift in Sources */,
 				020D076C26ECE7B8005D8677 /* PostGridView.swift in Sources */,
