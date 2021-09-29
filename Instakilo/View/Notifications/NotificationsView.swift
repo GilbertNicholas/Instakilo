@@ -15,7 +15,7 @@ struct NotificationsView: View {
         ScrollView {
             LazyVStack(spacing: 24) {
                 ForEach(viewModel.notifications) { notification in
-                    NotificationCell(notification: notification)
+                    NotificationCell(viewModel: NotificationCellViewModel(notification: notification))
                 } //: REPEAT 
             } //: LVSTACK
             .padding(.top)
