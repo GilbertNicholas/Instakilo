@@ -40,11 +40,13 @@ struct NotificationCell: View {
             
             if viewModel.notification.type != .follow {
                 if let post = viewModel.notification.post {
-                    KFImage(URL(string: post.imageUrl))
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 50, height: 50)
-                        .clipped()
+                    NavigationLink(destination: FeedCell(viewModel: FeedCellViewModel(post: post))) {
+                        KFImage(URL(string: post.imageUrl))
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 50, height: 50)
+                            .clipped()
+                    }
                 }
             } else {
                 Button(action: {

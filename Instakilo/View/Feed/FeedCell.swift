@@ -38,7 +38,7 @@ struct FeedCell: View {
             KFImage(URL(string: viewModel.post.imageUrl))
                 .resizable()
                 .scaledToFill()
-                .frame(maxHeight: 440)
+                .frame(minWidth: UIScreen.main.bounds.width, maxHeight: 440)
                 .clipped()
             
             // ACTION BUTTONS
