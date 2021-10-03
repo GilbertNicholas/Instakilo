@@ -16,7 +16,7 @@ class FeedViewModel: ObservableObject {
     }
     
     func fetchPosts() {
-        COLLECTION_POSTS.getDocuments { snapshot, _ in
+        COLLECTION_POSTS.order(by: "timestamp", descending: true).getDocuments { snapshot, _ in
             guard let postsData = snapshot?.documents else { return }
             
             self.post = postsData.compactMap({ try? $0.data(as: Post.self) })
