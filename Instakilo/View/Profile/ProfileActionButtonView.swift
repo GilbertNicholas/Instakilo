@@ -28,7 +28,7 @@ struct ProfileActionButtonView: View {
                     )
             }) //: BUTTON
                 .sheet(isPresented: $showEditProfile) {
-                    EditProfileVIew(viewModel: EditProfileViewModel(user: viewModel.user))
+                    EditProfileVIew(user: $viewModel.user)
                 }
             
         } else {

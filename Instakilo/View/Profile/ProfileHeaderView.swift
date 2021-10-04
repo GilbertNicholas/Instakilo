@@ -42,10 +42,12 @@ struct ProfileHeaderView: View {
                 .font(.system(size: 15, weight: .semibold))
                 .padding([.leading, .top])
             
-            Text("iOS Developer")
-                .font(.system(size: 15))
-                .padding(.leading)
-                .padding(.top, 1)
+            if let bio = viewModel.user.bio {
+                Text(bio)
+                    .font(.system(size: 15))
+                    .padding(.leading)
+                    .padding(.top, 1)
+            }
             
             HStack {
                 Spacer()
