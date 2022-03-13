@@ -20,7 +20,7 @@ This is an iOS app that using SwiftUI as its framework and MVVM architecture as 
 This app using Xcode 12.5.1, iOS 14 Target Deployment, SwiftUI 2.0, and Swift 5 Versions.
 
 ## Project's Preview <Coming Soon!>
-<p align="center"><img src="Home1 (Night Mode).png"></p><br>
+<p align="center"><img src="Home1 (Night Mode).png"></p>
 <p align="center"><img src="Home3.png"></p><br>
 <p align="center"><img src="MovieDetail1 (Night Mode).png"></p><br>
 <p align="center"><img src="MovieGenre.png"></p><br>
